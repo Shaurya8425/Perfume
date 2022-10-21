@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: hsl(30, 38%, 92%);
+}
+.box1{
+    /* border: .1rem solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1a{
+    border: .1rem solid black;
+    padding: .1rem;
+    width: 40%;
+    display: flex;
+}
+.container1{
+    /* border: .1rem solid black;   
+    background-color: blue; */
+    margin: .1rem;
+    width: 55%;
+}
+.container1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.container2{
+    /* border: .1rem solid black;
+    background-color: orange; */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+    width: 45%;
+    padding: 1em;
+    font-size: 1.05vw;
+}
+.secondary-para{
+    letter-spacing: .24vw;
+    color: hsl(228, 12%, 48%);
+}
+.heading{
+    font-family: 'Fraunces';
+
+}
+.primary-para{
+    color: hsl(228, 12%, 48%);
+}
+.price-tag{
+
+}
+.selling-price{
+    display: inline;
+    color: hsl(158, 36%, 37%);;
+}
+.fake-price{
+    display: inline;
+    font-size: 1.2vw;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.btn{
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-size: 1.4vw;
+    border: none;
+    border-radius: 8px;
+}
+.btn-text{
+    display: inline-block;
+}
+.btn-img{
+    margin-right: .5em;
+}
+.btn:hover{
+    background-color: hsl(212, 21%, 14%);
+}
+@media (max-width:420px){
+    .box1a{
+        width: 90%;
+        flex-direction: column;
+    }
+    .container1{
+        width: 100%;
+        margin-bottom: -.5rem;
+    }
+    .container1 img{
+        height: 72vw;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+    .container2{
+        width: 92%;
+    }
+    .container2{
+        border-radius: 0 0 10px 10px;
+        font-size: 3.9vw;
+    }
+    .secondary-para{
+        letter-spacing: 1vw;
+    }
+    .primary-para{
+        line-height: 1.52;
+    }
+    .fake-price{
+        font-size: 4.2vw;
+    }
+    .btn{
+        font-size: 4.2vw;
+    }
+}
