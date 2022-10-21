@@ -54,6 +54,7 @@ body{
 }
 .selling-price{
     display: inline;
+    font-family: 'Fraunces';
     color: hsl(158, 36%, 37%);;
 }
 .fake-price{
