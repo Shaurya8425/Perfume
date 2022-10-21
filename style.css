@@ -13,8 +13,8 @@ body{
     align-items: center;
 }
 .box1a{
-    border: .1rem solid black;
-    padding: .1rem;
+/*     border: .1rem solid black; */
+/*     padding: .1rem; */
     width: 40%;
     display: flex;
 }
